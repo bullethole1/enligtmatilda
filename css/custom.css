@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+font-family: 'Josefin Sans', sans-serif;
+}
+.social img{
+  width: auto;
+  height: auto;
+}
+
+.not-active {
+   pointer-events: none;
+   display: none;
+}
+
+a {
+    color: black;
+}
+
+#kont{
+  width: 500px;
+}
+
+#bs-example-navbar-collapse-1 a:hover:not(.nolink) {
+  background-color: grey;
+  transition: .5s
+}
+
+#img1:hover
+{
+  content: url("../img/1-2.png");
+  display: block;
+  smax-width: 100%;
+  height: auto;
+}
+
+.nolink {
+  transition: none !important;
+  background-color: none;
+}
+
+a:hover:(.nolink) {
+  transition: none !important;
+  background-color: white;
+}
+
+#hej {
+  margin-top: -3px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+.imageWrap {
+  position: relative;
+  height: 300;
+  width: 300;
+}
+.imagelink {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  color:black;
+  visibility: hidden;
+  opacity: 0;
+}
+.imageWrap:hover .imagelink {
+  visibility: visible;
+  opacity: 1;
+}
+
+#success_message{ display: none;}
